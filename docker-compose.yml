@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+    dunison:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: huangyingw/dunison
+        volumes:
+            - ./var/logs/:/var/logs/
+        environment:
+            - FILENAME="~/.bashrc"
