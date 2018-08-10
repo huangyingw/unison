@@ -13,5 +13,4 @@ brew install \
 
 make \
     && sudo cp src/unison /usr/local/bin \
-    && sudo cp src/unison-fsmonitor /usr/local/bin \
     && ~/loadrc/gitrc/g.sh
